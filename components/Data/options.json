@@ -1,0 +1,17 @@
+[
+    {
+        "id":1,
+        "option_text":"Ja",
+        "option_Value":"Ja"
+    },
+    {
+        "id":1,
+        "option_text":"Nein",
+        "option_Value":"Nein"
+    },
+    {
+        "id":1,
+        "option_text":"Nicht wesentlich",
+        "option_Value":"kA"
+    }
+]

@@ -1,82 +1,172 @@
-import Head from 'next/head'
+import axios from "axios";
+import { Field, FieldArray, Formik } from "formik";
+import Head from "next/head";
+import { useState } from "react";
+import {
+  Button,
+  Card,
+  CardBody,
+  CardHeader,
+  CardSubtitle,
+  CardText,
+  CardTitle,
+  Col,
+  Form,
+  FormGroup,
+  InputGroup,
+  Row,
+} from "reactstrap";
+import data from "../components/Data/Data.json";
+import options from "../components/Data/options.json";
 
-export default function Home() {
+var result = new Array();
+export default function Home(props) {
+  const [value, setValue] = useState({});
+
+  // const handleInputChange = (event) => {
+  //   const { name, value } = event.target;
+  //   setUser({ ...user, [name]: value });
+  // };
+
+  console.log("value", value);
+  const handleSubmit = (values, setSubmitting) => {
+    let data = {
+      result: result,
+    };
+    console.log(data);
+
+    axios
+      .post("/test", data)
+      .then((res) => {
+        console.log(res);
+        console.log("intial value is submited to results");
+        result = [];
+        history.push("/thankyou");
+      })
+      .catch((err) => {
+        console.log(err.response.data);
+        // history.push("/exam-appeared");
+        // result = [];
+      });
+  };
+  console.log("array", result);
+  const dataLength = data.length;
+
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2">
+    <div className="">
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
-        <h1 className="text-6xl font-bold">
-          Welcome to{' '}
-          <a className="text-blue-600" href="https://nextjs.org">
-            Next.js!
-          </a>
-        </h1>
-
-        <p className="mt-3 text-2xl">
-          Get started by editing{' '}
-          <code className="p-3 font-mono text-lg bg-gray-100 rounded-md">
-            pages/index.js
-          </code>
-        </p>
-
-        <div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
-          <a
-            href="https://nextjs.org/docs"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
+      <Card className="p-5 border-2 shadow-md rounded-md">
+        <CardBody>
+          <Formik
+            initialValues={{
+              result: [],
+              answer: "",
+            }}
+            onSubmit={handleSubmit}
           >
-            <h3 className="text-2xl font-bold">Documentation &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Find in-depth information about Next.js features and API.
-            </p>
-          </a>
+            {(formProps) => {
+              return (
+                <Form>
+                  {data?.map((d, id) => {
+                    return (
+                      <div key={d.id} className="mt-3">
+                        <CardTitle>
+                          {" "}
+                          {d.id}/{dataLength}
+                        </CardTitle>
+                        <CardSubtitle>{d.Schlagwort}</CardSubtitle>
+                        <CardText>{d.question_text}</CardText>
+                        <FieldArray
+                          name="result"
+                          render={(arrayHelpers) => {
+                            return (
+                              <div>
+                                <Row>
+                                  <Col>
+                                    <FormGroup>
+                                      <InputGroup className="flex flex-col mt-2">
+                                        {options?.map((opt) => {
+                                          return (
+                                            <label
+                                              key={opt.id}
+                                              className="p-2 bg-gray-600 text-white rounded-md text-center hover:bg-yellow-300 hover:text-black mb-1"
+                                            >
+                                              <Field
+                                                type="radio"
+                                                // name="answer"
+                                                value={opt.option_Value}
+                                                className="hidden"
+                                                onChange={() => {
+                                                  setValue({
+                                                    question_id: d.id,
+                                                    answer: opt.option_Value,
+                                                  });
 
-          <a
-            href="https://nextjs.org/learn"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Learn &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Learn about Next.js in an interactive course with quizzes!
-            </p>
-          </a>
+                                                  result.map((s) => {
+                                                    if (
+                                                      s.question_id ==
+                                                      value.question_id
+                                                    ) {
+                                                      result.pop();
+                                                      result.push({
+                                                        question_id: d.id,
+                                                        answer:
+                                                          opt.option_Value,
+                                                      });
+                                                      return;
+                                                    } else {
+                                                      result.push({
+                                                        question_id: d.id,
+                                                        answer:
+                                                          opt.option_Value,
+                                                      });
+                                                    }
+                                                  });
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Examples &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Discover and deploy boilerplate example Next.js projects.
-            </p>
-          </a>
+                                                  // result.push({
+                                                  //   question_id: d.id,
+                                                  //   answer: opt.option_Value,
+                                                  // });
+                                                }}
+                                              />
+                                              {opt.option_text}
+                                            </label>
+                                          );
+                                        })}
 
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Deploy &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
-      </main>
-
-      <footer className="flex items-center justify-center w-full h-24 border-t">
-        <a
-          className="flex items-center justify-center"
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="h-4 ml-2" />
-        </a>
-      </footer>
+                                        {/* <div>
+                                        answer: {formProps.values.answer}
+                                      </div> */}
+                                      </InputGroup>
+                                    </FormGroup>
+                                  </Col>
+                                </Row>
+                              </div>
+                            );
+                          }}
+                        />
+                      </div>
+                    );
+                  })}
+                  <div className="flex justify-center">
+                    <Button
+                      block
+                      className="border-2 p-2 border-black mt-7"
+                      type="submit"
+                      // disabled={formProps.isSubmitting}
+                    >
+                      Eegebnis zeigen
+                    </Button>
+                  </div>
+                </Form>
+              );
+            }}
+          </Formik>
+        </CardBody>
+      </Card>
     </div>
-  )
+  );
 }

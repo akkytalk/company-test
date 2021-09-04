@@ -1,0 +1,398 @@
+[
+    {
+        "id": 1,
+        "question_text":"Die Debatte um eine Umverteilung durch die Steuerpolitik gibt es bereits seit Jahrzehnten. Befürworten Sie eine stärkere Steuerlast für hohe Einkommen?",
+        "Politikfeld":"Einkommen und Vermögen",
+        "Schlagwort": "Umverteilung",
+        
+        "CDU/CSU":"Nein",
+        "SPD":"Ja",
+        "AfD":"Nein",
+        "FDP":"Nein",
+        "Grüne":"Ja",
+        "Linke":"Ja"
+        
+    },
+    {
+        "id": 2,
+        "question_text":"Der Solidaritätszuschlag wurde ursprünglich zur Finanzierung der Kosten der deutschen Einheit sowie des Golfkriegs erhoben und war anfangs auf ein Jahr befristet. Zum 01.01.2021 wurden 90% der Soli-Zahler entlastet, die restlichen Steuerzahler schultern aber immer noch knapp 10 Mrd. Euro pro Jahr. Sind Sie für eine endgültige Abschaffung des Solidaritätszuschlags?",
+        "Politikfeld":"Einkommen und Vermögen",
+        "Schlagwort": "Solidaritätszuschlag",
+        
+        "CDU/CSU":"Ja",
+        "SPD":"Nein",
+        "AfD":"Ja",
+        "FDP":"Ja",
+        "Grüne":"kA",
+        "Linke":"Ja"
+        
+    },
+    {
+        "id": 3,
+        "question_text":"Seit mehreren Jahren diskutieren Politikerinnen u.a. über den sog. Mittelstandsbauch im Einkommensteuertarif. Würden Sie eine deutliche Tarifsenkung in der Einkommensteuer über alle Einkommensklassen unterstützen?",
+        "Politikfeld":"Einkommen und Vermögen",
+        "Schlagwort": "Einkommenssteuer",
+
+        "CDU/CSU":"kA",
+        "SPD":"Nein",
+        "AfD":"kA",
+        "FDP":"Ja",
+        "Grüne":"Nein",
+        "Linke":"Nein"
+        
+    },
+    {
+        "id": 4,
+        "question_text":"Politische Akteure aus unterschiedlichen Lagern fordern, die Lücken im Haushalt aus der Pandemie durch eine stärkere Besteuerung von Erbschaften auszugleichen. Stimmen Sie dieser Forderung zu?",
+        "Politikfeld":"Einkommen und Vermögen",
+        "Schlagwort": "Haushalt",
+
+        
+        "CDU/CSU":"Nein",
+        "SPD":"Ja",
+        "AfD":"Nein",
+        "FDP":"Nein",
+        "Grüne":"Ja",
+        "Linke":"Ja"
+        
+    },
+    {
+        "id": 5,
+        "question_text":"Sollte die Spekulationsfrist für Verkäufe von selbstgenutzten Wohnimmobilien dahingehend abgeschafft werden, dass auch nach langfristigem Besitz kein steuerfreier Verkauf mehr möglich ist?",
+        "Politikfeld":"Einkommen und Vermögen",
+        "Schlagwort": "Spekulationsfrist",
+
+        "CDU/CSU":"kA",
+        "SPD":"Ja",
+        "AfD":"kA",
+        "FDP":"kA",
+        "Grüne":"kA",
+        "Linke":"Ja"
+        
+    },
+    
+    {
+        "id": 6,
+        "question_text":"Wer einen Dienstwagen privat nutzt, fällt unter ein besonderes Regime der Besteuerung des geldwerten Vorteils, das klimafreundliche Dienstwagen bevorzugt besteuert. Vielfach wird dies als Dienstwagenprivileg kritisiert. Sind sie für eine höhere Besteuerung privat genutzter Dienstwagen oder zumindest einen sozial-ökologischen Umbau?",
+        "Politikfeld":"Einkommen und Vermögen",
+        "Schlagwort": "Dienstwagen",
+
+        "CDU/CSU":"kA",
+        "SPD":"kA",
+        "AfD":"kA",
+        "FDP":"kA",
+        "Grüne":"Ja",
+        "Linke":"Ja"
+        
+    },
+    
+    {
+        "id": 7,
+        "question_text":"Seit Jahren ist das Ehegattensplitting in der Diskussion, z.B. wird immer wieder gefordert, stattdessene eine Individualbesteuerung einzugführen, bei der ggf. nur ein nicht genutzter Grundfreibetrag übertragen werden kann. Soll das Ehegattensplitting für neu geschlossene Ehen beibehalten werden ?",
+        "Politikfeld":"Einkommen und Vermögen",
+        "Schlagwort": "Ehegattensplitting",
+        
+        "CDU/CSU":"Ja",
+        "SPD":"Nein",
+        "AfD":"kA",
+        "FDP":"Ja",
+        "Grüne":"Nein",
+        "Linke":"Nein"
+    },
+    
+    {
+        "id": 8,
+        "question_text":"Sollen kinderreiche Familien steuerlich gefördert werden, in dem das Ehegattensplitting zu einem Familiensplitting erweitert wird?",
+        "Politikfeld":"Einkommen und Vermögen",
+        "Schlagwort": "Familiensplitting",
+
+        "CDU/CSU":"Ja",
+        "SPD":"kA",
+        "AfD":"Ja",
+        "FDP":"kA",
+        "Grüne":"kA",
+        "Linke":"kA"
+    },
+    
+    {
+        "id": 9,
+        "question_text":"Seit der Corona-Krise erlebt das Home Office einen Boom und wird für die Jahre 2020 und 2021 steuerlich auch pauschal anerkannt, während das Finanzamt ein privates Arbeitszimmer nur unter hohen Bedingungen akzeptiert. Sollte der Gesetzgeber dauerhaft die Aufwendungen für ein Home Office erleichtert anerkennen?",
+        "Politikfeld":"Einkommen und Vermögen",
+        "Schlagwort": "Home Office",
+
+        
+        "CDU/CSU":"Ja",
+        "SPD":"kA",
+        "AfD":"kA",
+        "FDP":"Ja",
+        "Grüne":"kA",
+        "Linke":"kA"
+    },
+    
+    {
+        "id": 10,
+        "question_text":"In Österrreich wurde bereits 2014 eine Deckelung beschlossen, wodurch Lohn- und Gehaltszahlungen ab 500 000 Euro beim Arbeitgeber vom Betriebsausgabenabzug ausgeschlossen sind. Wäre eine ähnliche, womöglich weiterreichendere Regelung für Deutschland sinnvoll?",
+        "Politikfeld":"Unternehmen",
+        "Schlagwort": "Körperschaftsteuer",
+
+         
+        "CDU/CSU":"kA",
+        "SPD":"Ja",
+        "AfD":"kA",
+        "FDP":"kA",
+        "Grüne":"Ja",
+        "Linke":"Ja"
+    },
+    
+    {
+        "id": 11,
+        "question_text":"Bei den Fragen nach der Wettbewerbsfähigkeit des Wirtschaftsstandorts Deutschland wie nach einem gerechten Beitrag der Unternehmen zum Gemeinwesen ist die Steuerlast von Unternehmen ein entscheidender Faktor. Unterstützen Sie eine allgemeine Reduzierung der Unternehmensteuern, insbesondere durch eine Senkung des Körperschaftsteuersatzes oder das allgemeine Ziel der Senkung der Steuer- und Abgabenlast?",
+        "Politikfeld":"Unternehmen",
+        "Schlagwort": "Körperschaftsteuer",
+
+        "CDU/CSU":"Ja",
+        "SPD":"kA",
+        "AfD":"Ja",
+        "FDP":"Ja",
+        "Grüne":"kA",
+        "Linke":"Nein"
+    },
+    {
+        "id": 12,
+        "question_text":"Im April dieses Jahres beschloss die große Koalition einen Maßnahmenpaket zur Entlastung von Unternehmen in der Corona-Krise, unter Anderem wurden Erleichterungen bei der Verlustrechnung beschlossen. Manche Parteien wollen die Verlustnutzung für Unternehmen dauerhaft verbessern. Würden Sie eine solche Maßnahme unterstützen?",
+        "Politikfeld":"Unternehmen",
+        "Schlagwort": "Verlustrechnung",
+
+        
+        "CDU/CSU":"Ja",
+        "SPD":"kA",
+        "AfD":"kA",
+        "FDP":"Ja",
+        "Grüne":"Ja",
+        "Linke":"kA"
+    },
+    
+    {
+        "id": 13,
+        "question_text":"Sollten Investitionen von Unternehmen durch bessere Abschreibungsmöglichkeiten gefördert werden, z.B. bei Investitionen in Bildung, den Klimaschutz oder die Digitalisierung?",
+        "Politikfeld":"Unternehmen",
+        "Schlagwort": "Abschreibung",
+
+        
+        "CDU/CSU":"Ja",
+        "SPD":"kA",
+        "AfD":"kA",
+        "FDP":"Ja",
+        "Grüne":"Ja",
+        "Linke":"kA"
+    },
+    
+    {
+        "id": 14,
+        "question_text":"Sollten Investitionen von Unternehmen durch bessere Abschreibungsmöglichkeiten gefördert werden, z.B. bei Investitionen in Bildung, den Klimaschutz oder die Digitalisierung?",
+        "Politikfeld":"Unternehmen",
+        "Schlagwort": "Finanztransaktionsteuer",
+
+        "CDU/CSU":"Ja",
+        "SPD":"Ja",
+        "AfD":"kA",
+        "FDP":"kA",
+        "Grüne":"Ja",
+        "Linke":"Ja"
+    },
+    {
+        "id": 15,
+        "question_text":"Seit 2020 ist eine jährliche steuerliche Förderung von Forschungs-und Entwicklungsaktivitäten mit einer Forschungszulage von bis zu 500.000 € möglich. Sollte diese Summe erhöht werden?",
+        "Politikfeld":"Unternehmen",
+        "Schlagwort": "Forschungszulage",
+
+        
+        "CDU/CSU":"Ja",
+        "SPD":"kA",
+        "AfD":"kA",
+        "FDP":"Ja",
+        "Grüne":"Ja",
+        "Linke":"kA"
+    },
+    
+    {
+        "id": 16,
+        "question_text":"Erst vor wenigen Monaten hat die Große Koalition die Besteuerung von sog. Share Deals in der Grunderwebsteuer ausgeweitet. Unterstützen Sie Forderungen nach einer erneuten Verschärfung, z.B. in Form einer anteiligen Besteuerung bei Unternehmensverkäufen?",
+        "Politikfeld":"Unternehmen",
+        "Schlagwort": "Grunderwerbsteuer",
+
+        
+        "CDU/CSU":"kA",
+        "SPD":"Ja",
+        "AfD":"kA",
+        "FDP":"Ja",
+        "Grüne":"Ja",
+        "Linke":"Ja"
+    },
+    
+    {
+        "id": 17,
+        "question_text":"Soll die Anzeigepflicht für bestimmte grenzüberschreitende Steuergestaltungen auf rein nationale Steuergestaltungen ausgedehnt werden?",
+        "Politikfeld":"Unternehmen",
+        "Schlagwort": "Steuergestaltungen",
+
+        
+        "CDU/CSU":"kA",
+        "SPD":"Ja",
+        "AfD":"kA",
+        "FDP":"kA",
+        "Grüne":"Ja",
+        "Linke":"kA"
+    },
+    {
+        "id": 18,
+        "question_text":"Friedrich Merz wird bis heute mit der Idee einer Steuererklärung assoziiert, die auf einen Bierdeckel passt. Sollte das Ausfüllen der Steuererklärung durch digitale Hilfsmittel erleichtert werden?",
+        "Politikfeld":"Sonstiges",
+        "Schlagwort": "Steuererklärung",
+
+        
+        "CDU/CSU":"Ja",
+        "SPD":"kA",
+        "AfD":"kA",
+        "FDP":"Ja",
+        "Grüne":"kA",
+        "Linke":"kA"
+    },
+    {
+        "id": 19,
+        "question_text":"EU-Steuerrichtlinien brauchen bis heute eine Zustimmung durch ein Einstimmigkeitsverfahren im Rat der EU (ECOFIN), um in Kraft zu treten. Wäre eine Aufweichung dieser Regel in Form einer Mehrheitsentscheidung sinnvoll?",
+        "Politikfeld":"Sonstiges",
+        "Schlagwort": "International",
+
+        "CDU/CSU":"kA",
+        "SPD":"Ja",
+        "AfD":"kA",
+        "FDP":"kA",
+        "Grüne":"Ja",
+        "Linke":"kA"
+    },
+    {
+        "id": 20,
+        "question_text":"Zivilgesellschaftliche Vereinigungen wie Sportvereine profitieren steuerlich von der Kategorisierung als gemeinnütziger Zweck allerdings dürfen diese nicht politisch tätig sein. Ist es sinnvoll, Vereinen ihre steuerlichen Privilegien zu lassen und ihnen ein Recht auf politische Tätgikeit zu gewähren?",
+        "Politikfeld":"Sonstiges",
+        "Schlagwort": "Körperschaften",
+
+        
+        "CDU/CSU":"kA",
+        "SPD":"Ja",
+        "AfD":"kA",
+        "FDP":"kA",
+        "Grüne":"Ja",
+        "Linke":"Ja"
+    },
+    {
+        "id": 21,
+        "question_text":"Digitialisierung, E-Mobilität, Wärmepumpen: Strom wird als Energielieferant immer wichtiger. Einige Parteien wollen die Stromsteuer senken, um klimapolitische Belastungen auszugleichen. Sind sie dafür?",
+        "Politikfeld":"Klima und Umwelt",
+        "Schlagwort": "Stromsteuer",
+
+        
+        "CDU/CSU":"kA",
+        "SPD":"kA",
+        "AfD":"kA",
+        "FDP":"Ja",
+        "Grüne":"kA",
+        "Linke":"Ja"
+    },
+    {
+        "id": 22,
+        "question_text":"Derzeit gelten in Deutschland im Rahmen der Hinzrechnungsbesteuerung viele Länder als Niedrigsteuerländer. Sollte die sog. Niedrigsteuergrenze von derzeit 25% abgesenkt werden?",
+        "Politikfeld":"Unternehmen",
+        "Schlagwort": "AStG-Niedrigsteuergrenze",
+        
+        "CDU/CSU":"Ja",
+        "SPD":"kA",
+        "AfD":"kA",
+        "FDP":"Ja",
+        "Grüne":"kA",
+        "Linke":"kA"
+    },
+    {
+        "id": 23,
+        "question_text":"Der ermäßigte Umsatzsteuersatz wird immer wieder kritisiert, von der Politik aber auch gerne als Förderinstrument verwendet. Wären Sie dafür, mehr Produkte ermäßigt zu besteuern, z.B. Medikamente, pflanzliche Milchalternativen, arbeitsintensives Handwerk oder Produkte für Kinder? ",
+        "Politikfeld":"Sonstiges",
+        "Schlagwort": "Umsatzsteuer",
+
+        
+        "CDU/CSU":"kA",
+        "SPD":"kA",
+        "AfD":"Ja",
+        "FDP":"kA",
+        "Grüne":"Ja",
+        "Linke":"Ja"
+    },
+    {
+        "id": 24,
+        "question_text":"Einige Parteien kritisieren Bagatell- und Lenkungssteuern, da sie zu viel Bürokratie verursachen würden und zu wenige Einnahmen generieren. Würden Sie einer Abschaffung von solchen Steuern wie bspw. der Schaumwein- und Zwischenerzeugnissteuer oder der Kaffeesteuer zustimmen?",
+        "Politikfeld":"Sonstiges",
+        "Schlagwort": "Bagatellsteuern",
+
+        
+        "CDU/CSU":"kA",
+        "SPD":"kA",
+        "AfD":"Ja",
+        "FDP":"Ja",
+        "Grüne":"kA",
+        "Linke":"kA" 
+    },
+    {
+        "id": 25,
+        "question_text":"1995 wurde die Vermögensteuer vom Bundesverfassungsgericht als verfassungswidrig eingestuft, da sie zu einer ungerechten Besteuerung von Immobilienvermögen im Vergleich zu Kapitalvermögen führte. Seitdem wird eine Wiedereinführung immer wieder diskutiert. Würden Sie eine Wiedereinführung der VSt befürworten?",
+        "Politikfeld":"Einkommen und Vermögen",
+        "Schlagwort": "Vermögensteuer",
+
+        
+        "CDU/CSU":"Nein",
+        "SPD":"Ja",
+        "AfD":"Nein",
+        "FDP":"Nein",
+        "Grüne":"Ja",
+        "Linke":"Ja" 
+    },
+    
+  
+    {
+        "id": 26,
+        "question_text":"Wäre es aus Ihrer Sicht eine gute Idee, gezielt die private Vermögensbildung steuerlich zu fördern, z.B. über höhere Freibeträge für Sparer, Mitarbeiterkapitalbeteiligung, private Wertpapiergeschäfte oder höhere vermögenswirksame Leistungen?",
+        "Politikfeld":"Einkommen und Vermögen",
+        "Schlagwort": "Vermögensbildung",
+
+        "CDU/CSU":"Ja",
+        "SPD":"kA",
+        "AfD":"kA",
+        "FDP":"Ja",
+        "Grüne":"kA",
+        "Linke":"kA" 
+    },
+    {
+        "id": 27,
+        "question_text":"Sollte der CO2-Emissionshandel auf europäischer Ebene oder sogar global ausgeweitet werden, um die CO2-Minderungsziele besser zu erreichen?",
+        "Politikfeld":"Klima und Umwelt",
+        "Schlagwort": "Emissionshandel",
+
+        "CDU/CSU":"Ja",
+        "SPD":"Ja",
+        "AfD":"Nein",
+        "FDP":"Ja",
+        "Grüne":"Ja",
+        "Linke":"Ja" 
+    },
+    {
+        "id": 28,
+        "question_text":"Bis heute finanziert sich die Europäische Union aus Einnahmen aus dem gemeinsamen Außenzoll, Mitgliedsbeiträgen und einer Beteiligung an der Umsatzsteuer der Mitgliedländer in Form einer Umlage. Sollte der EU die Möglichkeit einer unabhängigen Steuererhebung gegeben werden?",
+        "Politikfeld":"Sonstiges",
+        "Schlagwort": "International",
+
+        "CDU/CSU":"kA",
+        "SPD":"Ja",
+        "AfD":"Nein",
+        "FDP":"Nein",
+        "Grüne":"Ja",
+        "Linke":"Ja" 
+    }
+]

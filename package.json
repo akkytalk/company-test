@@ -1,18 +1,74 @@
 {
+  
+  "name": "company-test",
+  
+  "homepage": "./",
+  
   "private": true,
+  
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+  
+    
+  "dev": "next dev",
+  
+    
+  "build": "next build",
+  
+    
+  "start": "next start"
+  
   },
+  
   "dependencies": {
-    "next": "latest",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+  
+    
+  "axios": "^0.21.1",
+  
+    
+  "formik": "^2.2.9",
+  
+    
+  "next": "latest",
+  
+    
+  "react": "^17.0.2",
+  
+    
+  "react-dom": "^17.0.2",
+  
+    
+  "react-redux": "^7.2.4",
+  
+    
+  "reactstrap": "^8.10.0",
+  
+    
+  "redux": "^4.1.1",
+  
+    
+  "redux-logger": "^3.0.6",
+  
+    
+  "redux-persist": "^6.0.0",
+  
+    
+  "redux-thunk": "^2.3.0",
+  
+    
+  "sweetalert": "^2.1.2"
+  
   },
+  
   "devDependencies": {
-    "autoprefixer": "^10.2.6",
-    "postcss": "^8.3.5",
-    "tailwindcss": "^2.2.4"
+  
+    
+  "autoprefixer": "^10.3.4",
+  
+    
+  "postcss": "^8.3.6",
+  
+    
+  "tailwindcss": "^2.2.9"
+  
   }
 }
