@@ -5,7 +5,7 @@
         "Politikfeld":"Einkommen und Vermögen",
         "Schlagwort": "Umverteilung",
         
-        "CDU/CSU":"Nein",
+        "CDU":"Nein",
         "SPD":"Ja",
         "AfD":"Nein",
         "FDP":"Nein",
@@ -19,7 +19,7 @@
         "Politikfeld":"Einkommen und Vermögen",
         "Schlagwort": "Solidaritätszuschlag",
         
-        "CDU/CSU":"Ja",
+        "CDU":"Ja",
         "SPD":"Nein",
         "AfD":"Ja",
         "FDP":"Ja",
@@ -33,7 +33,7 @@
         "Politikfeld":"Einkommen und Vermögen",
         "Schlagwort": "Einkommenssteuer",
 
-        "CDU/CSU":"kA",
+        "CDU":"kA",
         "SPD":"Nein",
         "AfD":"kA",
         "FDP":"Ja",
@@ -48,7 +48,7 @@
         "Schlagwort": "Haushalt",
 
         
-        "CDU/CSU":"Nein",
+        "CDU":"Nein",
         "SPD":"Ja",
         "AfD":"Nein",
         "FDP":"Nein",
@@ -62,7 +62,7 @@
         "Politikfeld":"Einkommen und Vermögen",
         "Schlagwort": "Spekulationsfrist",
 
-        "CDU/CSU":"kA",
+        "CDU":"kA",
         "SPD":"Ja",
         "AfD":"kA",
         "FDP":"kA",
@@ -77,7 +77,7 @@
         "Politikfeld":"Einkommen und Vermögen",
         "Schlagwort": "Dienstwagen",
 
-        "CDU/CSU":"kA",
+        "CDU":"kA",
         "SPD":"kA",
         "AfD":"kA",
         "FDP":"kA",
@@ -92,7 +92,7 @@
         "Politikfeld":"Einkommen und Vermögen",
         "Schlagwort": "Ehegattensplitting",
         
-        "CDU/CSU":"Ja",
+        "CDU":"Ja",
         "SPD":"Nein",
         "AfD":"kA",
         "FDP":"Ja",
@@ -106,7 +106,7 @@
         "Politikfeld":"Einkommen und Vermögen",
         "Schlagwort": "Familiensplitting",
 
-        "CDU/CSU":"Ja",
+        "CDU":"Ja",
         "SPD":"kA",
         "AfD":"Ja",
         "FDP":"kA",
@@ -121,7 +121,7 @@
         "Schlagwort": "Home Office",
 
         
-        "CDU/CSU":"Ja",
+        "CDU":"Ja",
         "SPD":"kA",
         "AfD":"kA",
         "FDP":"Ja",
@@ -136,7 +136,7 @@
         "Schlagwort": "Körperschaftsteuer",
 
          
-        "CDU/CSU":"kA",
+        "CDU":"kA",
         "SPD":"Ja",
         "AfD":"kA",
         "FDP":"kA",
@@ -150,7 +150,7 @@
         "Politikfeld":"Unternehmen",
         "Schlagwort": "Körperschaftsteuer",
 
-        "CDU/CSU":"Ja",
+        "CDU":"Ja",
         "SPD":"kA",
         "AfD":"Ja",
         "FDP":"Ja",
@@ -164,7 +164,7 @@
         "Schlagwort": "Verlustrechnung",
 
         
-        "CDU/CSU":"Ja",
+        "CDU":"Ja",
         "SPD":"kA",
         "AfD":"kA",
         "FDP":"Ja",
@@ -179,7 +179,7 @@
         "Schlagwort": "Abschreibung",
 
         
-        "CDU/CSU":"Ja",
+        "CDU":"Ja",
         "SPD":"kA",
         "AfD":"kA",
         "FDP":"Ja",
@@ -193,7 +193,7 @@
         "Politikfeld":"Unternehmen",
         "Schlagwort": "Finanztransaktionsteuer",
 
-        "CDU/CSU":"Ja",
+        "CDU":"Ja",
         "SPD":"Ja",
         "AfD":"kA",
         "FDP":"kA",
@@ -207,7 +207,7 @@
         "Schlagwort": "Forschungszulage",
 
         
-        "CDU/CSU":"Ja",
+        "CDU":"Ja",
         "SPD":"kA",
         "AfD":"kA",
         "FDP":"Ja",
@@ -222,7 +222,7 @@
         "Schlagwort": "Grunderwerbsteuer",
 
         
-        "CDU/CSU":"kA",
+        "CDU":"kA",
         "SPD":"Ja",
         "AfD":"kA",
         "FDP":"Ja",
@@ -237,7 +237,7 @@
         "Schlagwort": "Steuergestaltungen",
 
         
-        "CDU/CSU":"kA",
+        "CDU":"kA",
         "SPD":"Ja",
         "AfD":"kA",
         "FDP":"kA",
@@ -251,7 +251,7 @@
         "Schlagwort": "Steuererklärung",
 
         
-        "CDU/CSU":"Ja",
+        "CDU":"Ja",
         "SPD":"kA",
         "AfD":"kA",
         "FDP":"Ja",
@@ -264,7 +264,7 @@
         "Politikfeld":"Sonstiges",
         "Schlagwort": "International",
 
-        "CDU/CSU":"kA",
+        "CDU":"kA",
         "SPD":"Ja",
         "AfD":"kA",
         "FDP":"kA",
@@ -278,7 +278,7 @@
         "Schlagwort": "Körperschaften",
 
         
-        "CDU/CSU":"kA",
+        "CDU":"kA",
         "SPD":"Ja",
         "AfD":"kA",
         "FDP":"kA",
@@ -292,7 +292,7 @@
         "Schlagwort": "Stromsteuer",
 
         
-        "CDU/CSU":"kA",
+        "CDU":"kA",
         "SPD":"kA",
         "AfD":"kA",
         "FDP":"Ja",
@@ -305,7 +305,7 @@
         "Politikfeld":"Unternehmen",
         "Schlagwort": "AStG-Niedrigsteuergrenze",
         
-        "CDU/CSU":"Ja",
+        "CDU":"Ja",
         "SPD":"kA",
         "AfD":"kA",
         "FDP":"Ja",
@@ -319,7 +319,7 @@
         "Schlagwort": "Umsatzsteuer",
 
         
-        "CDU/CSU":"kA",
+        "CDU":"kA",
         "SPD":"kA",
         "AfD":"Ja",
         "FDP":"kA",
@@ -333,7 +333,7 @@
         "Schlagwort": "Bagatellsteuern",
 
         
-        "CDU/CSU":"kA",
+        "CDU":"kA",
         "SPD":"kA",
         "AfD":"Ja",
         "FDP":"Ja",
@@ -347,7 +347,7 @@
         "Schlagwort": "Vermögensteuer",
 
         
-        "CDU/CSU":"Nein",
+        "CDU":"Nein",
         "SPD":"Ja",
         "AfD":"Nein",
         "FDP":"Nein",
@@ -362,7 +362,7 @@
         "Politikfeld":"Einkommen und Vermögen",
         "Schlagwort": "Vermögensbildung",
 
-        "CDU/CSU":"Ja",
+        "CDU":"Ja",
         "SPD":"kA",
         "AfD":"kA",
         "FDP":"Ja",
@@ -375,7 +375,7 @@
         "Politikfeld":"Klima und Umwelt",
         "Schlagwort": "Emissionshandel",
 
-        "CDU/CSU":"Ja",
+        "CDU":"Ja",
         "SPD":"Ja",
         "AfD":"Nein",
         "FDP":"Ja",
@@ -388,7 +388,7 @@
         "Politikfeld":"Sonstiges",
         "Schlagwort": "International",
 
-        "CDU/CSU":"kA",
+        "CDU":"kA",
         "SPD":"Ja",
         "AfD":"Nein",
         "FDP":"Nein",

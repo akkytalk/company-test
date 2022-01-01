@@ -4,17 +4,18 @@ import "../styles/globals.css";
 
 import { configureStore } from "../redux/ConfigureStore";
 import { Provider } from "react-redux";
-import { PersistGate } from "redux-persist/es/integration/react";
+import { PersistGate } from "redux-persist/integration/react";
+
+const { persistor, store } = configureStore();
 function MyApp({ Component, pageProps }) {
-  const { persistor, store } = configureStore();
   return (
-    <Layout>
-      <Provider store={store}>
-        <PersistGate persistor={persistor}>
+    <Provider store={store}>
+      <PersistGate persistor={persistor}>
+        <Layout>
           <Component {...pageProps} />
-        </PersistGate>
-      </Provider>
-    </Layout>
+        </Layout>
+      </PersistGate>
+    </Provider>
   );
 }
 

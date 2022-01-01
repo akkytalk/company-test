@@ -3,7 +3,7 @@ import * as actionType from "../actions/ActionTypes";
 const initialState = {
   result: [],
   error: false,
-  editResult: [],
+  mainResult: [],
   isLoading: false,
 };
 
@@ -22,15 +22,15 @@ const reducer = (state = initialState, action) => {
         ...state,
         isLoading: false,
         error: action.error,
-        result: [],
+        // result: [],
       };
     case actionType.RESULT_LOADING:
       return {
         ...state,
         isLoading: true,
         error: false,
-        result: [],
-        editResult: [],
+        // result: [],
+        // mainResult: [],
       };
 
     case actionType.POST_RESULT_DATA_FAIL:
@@ -44,14 +44,14 @@ const reducer = (state = initialState, action) => {
         ...state,
         isLoading: false,
         error: false,
-        editResult: action.editResult,
+        mainResult: action.mainResult,
       };
     case actionType.RESULT_EDIT_FAIL_DATA:
       return {
         ...state,
         isLoading: false,
         error: action.error,
-        editResult: [],
+        // mainResult: [],
       };
     case actionType.UPDATE_RESULT_DATA_START:
       return {
